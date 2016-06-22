@@ -15,6 +15,7 @@
 		93657D661CFD2C1B00B9BA83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93657D641CFD2C1B00B9BA83 /* LaunchScreen.storyboard */; };
 		93657D711CFD2C1B00B9BA83 /* textHeaderViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93657D701CFD2C1B00B9BA83 /* textHeaderViewTests.m */; };
 		93657D7C1CFD2C1B00B9BA83 /* textHeaderViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93657D7B1CFD2C1B00B9BA83 /* textHeaderViewUITests.m */; };
+		93657D8A1CFD2DA500B9BA83 /* hh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93657D891CFD2DA500B9BA83 /* hh.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		93657D771CFD2C1B00B9BA83 /* textHeaderViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textHeaderViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93657D7B1CFD2C1B00B9BA83 /* textHeaderViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textHeaderViewUITests.m; sourceTree = "<group>"; };
 		93657D7D1CFD2C1B00B9BA83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93657D891CFD2DA500B9BA83 /* hh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hh.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		93657D551CFD2C1B00B9BA83 /* textHeaderView */ = {
 			isa = PBXGroup;
 			children = (
+				93657D891CFD2DA500B9BA83 /* hh.jpg */,
 				93657D591CFD2C1B00B9BA83 /* AppDelegate.h */,
 				93657D5A1CFD2C1B00B9BA83 /* AppDelegate.m */,
 				93657D5C1CFD2C1B00B9BA83 /* ViewController.h */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93657D661CFD2C1B00B9BA83 /* LaunchScreen.storyboard in Resources */,
+				93657D8A1CFD2DA500B9BA83 /* hh.jpg in Resources */,
 				93657D631CFD2C1B00B9BA83 /* Assets.xcassets in Resources */,
 				93657D611CFD2C1B00B9BA83 /* Main.storyboard in Resources */,
 			);
@@ -414,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = textHeaderView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = global.textHeaderView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = textHeaderView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = global.textHeaderView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
